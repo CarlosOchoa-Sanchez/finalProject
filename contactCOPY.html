@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Carlos Ochoa-Sanchez">
+        <meta name="description" content="The contact information section of my Alpine Evergreen website">
+        
+        <title>Alpine Evergreen | Contact</title>
+
+        <!--Favicon Logo-->
+        <link rel="shortcut icon" href="logo1.jpg" type="image/x-icon">
+        <link rel="icon" href="logo1.jpg" type="image/x-icon">
+
+        <!--CSS Style-->
+        <link rel="stylesheet" href="stylesCOPY.css">
+
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Quicksand&family=Roboto+Condensed&family=Seymour+One&display=swap" rel="stylesheet">        
+    </head>
+
+    <!--BODY BEGINS-->
+    <body>
+        <div class="container">
+        <!--Header-->
+        <header>
+            
+            <h1><a href="#">Alpine Evergreen</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+        <!--Main Begin-->
+        <main>
+        
+            <img src="swiss-valley.jpg" alt="A picture of a swiss valley with green trees and the mountains full of
+            snow in the background" height="560" width="1440" id="valley">
+            <section id="contactus">
+                <h2>Contact Us</h2>
+                <p> Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+            </section>
+    
+            <img src="swiss-sunset.jpg" alt="A picture of a swiss valley with green trees and the mountains full of
+            snow in the background" id="imagecontact"> 
+            <!--Form Action-->
+            <div class="container2">
+                <form action=" https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                    <div class="form-group">
+                        <label for="full-name">Full Name : <span class="required">*</span></label>
+                        <input type="text" name="full-name" id="full-name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address : <span class="required">*</span></label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="my-phone">Phone Number: <span class="required">*</span></label>
+                        <input type="tel" name="my-phone" id="my-phone" required>
+    
+                    </div>
+
+                    <div class="form-group-right">
+                        <fieldset>
+                            <legend>Preferred Method of Contact: <span class="required">*</span></legend>
+        
+                            <input type="radio" name="contact-pref" id="pref-email" checked>
+                            <label for="pref-email">Email</label>
+                            
+                            <input type="radio" name="contact-pref" id="pref-phone">
+                            <label for="pref-phone">Phone</label>
+                        </fieldset>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="my-comments">Comments: <span class="required">*</span></label>
+                        <textarea name="my-comments" id="my-comments"></textarea>
+                    </div>
+                    <!--BUTTON-->
+                    <div class="button1">
+                        <input type="submit" name="my-submit" id="my-submit" value="Submit the Form">
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p> &copy; 2023 - Alpine Evergreen<br>This site is for educational purposes only </p>
+        </footer>
+        </div>
+    </body>
+</html>
